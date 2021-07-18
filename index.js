@@ -1,3 +1,12 @@
+const gender = document.getElementById("gender")
+const form = document.getElementById("form")
+const century = document.getElementById("labelA")
+const year = document.getElementById("labelB")
+const month = document.getElementById("labelC")
+const date = document.getElementById("labelD")
+
+
+
 // function onFormSubmit(){
 //     var formData=readFormData();
 //     insertNewRecord(formData)
@@ -20,9 +29,17 @@ let calculateDay = (date) => {
   }
    // 0 - sat
 // 6 - friday
-let getAkanDay = (dayOfTheWeek) => {
+let getAkanDay1 = (dayOfTheWeek) => {
     let menAkanDays = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
     return menAkanDays[dayOfTheWeek];
   }
     console.log(getAkanDay(calculateDay("20-03-01-24"))); 
-    
+
+let getAkanDay2 = (dayOfTheWeek) => {
+    let womenAkanDays = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
+    return womenAkanDays[dayOfTheWeek];
+}
+
+    console.log(getAkanDay2(calculateDay("20-03-01-24"))); 
+
+
