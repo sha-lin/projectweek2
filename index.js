@@ -1,10 +1,10 @@
-const gender = document.getElementById("gender")
-const form = document.getElementById("form")
 const century = document.getElementById("labelA")
 const year = document.getElementById("labelB")
 const month = document.getElementById("labelC")
 const date = document.getElementById("labelD")
-
+const gender = document.getElementById("labelE")
+const gender = document.getElementById("labelF")
+const submit = document.getElementById("line7")
 
 
 // function onFormSubmit(){

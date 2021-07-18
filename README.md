@@ -17,7 +17,7 @@ JavaScript
 
 ## Support and contact details
 In case of any issues or questions, feel free to contact me using the e-mail address ronoshalin@gmail.com
-### License
-*MIT License
-Copyright (c) [2021] [Shalin Rono]
+### **License**
 https://choosealicense.com/licenses/mit/#
+# **Copyright**
+Copyright (c) [2021] **Shalin Rono**
