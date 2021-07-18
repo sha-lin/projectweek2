@@ -1,10 +1,13 @@
-const century = document.getElementById("labelA")
-const year = document.getElementById("labelB")
-const month = document.getElementById("labelC")
-const date = document.getElementById("labelD")
-const gender = document.getElementById("labelE")
-const gender = document.getElementById("labelF")
-const submit = document.getElementById("line7")
+function getInputValues()
+{
+const century = document.getElementById("labelA").value;
+const year = document.getElementById("labelB").value;
+const month = document.getElementById("labelC").value;
+const date = document.getElementById("labelD").value;
+const gender = document.getElementById("labelE").value;
+const gender = document.getElementById("labelF").value
+const submit = document.getElementById("line7").value;
+}
 
 
 // function onFormSubmit(){
@@ -29,17 +32,24 @@ let calculateDay = (date) => {
   }
    // 0 - sat
 // 6 - friday
-let getAkanDay1 = (dayOfTheWeek) => {
+let getAkanDay = (dayOfTheWeek) => {
     let menAkanDays = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
     return menAkanDays[dayOfTheWeek];
   }
     console.log(getAkanDay(calculateDay("20-03-01-24"))); 
 
-let getAkanDay2 = (dayOfTheWeek) => {
-    let womenAkanDays = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
-    return womenAkanDays[dayOfTheWeek];
+if (CC==""){
+  alert("No empty field accepted");
+  return false
 }
-
-    console.log(getAkanDay2(calculateDay("20-03-01-24"))); 
-
-
+if(YY==""){
+  alert("No empty field accepted");
+  return false
+}
+if(MM==""){
+  alert("No empty field accepted");
+  return false
+}
+if(DD==""){
+  alert("No empty field accepted");
+}
