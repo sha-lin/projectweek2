@@ -24,5 +24,5 @@ let getAkanDay = (dayOfTheWeek) => {
     let menAkanDays = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
     return menAkanDays[dayOfTheWeek];
   }
-    console.log(getAkanDay(calculateDay("20-21-07-17"))); 
+    console.log(getAkanDay(calculateDay("20-03-01-24"))); 
     
